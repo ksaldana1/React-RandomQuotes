@@ -4,7 +4,8 @@
   "description": "Random Quote Generation - Mini-React/Redux Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "repository": {
     "type": "git",
@@ -22,12 +23,14 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "axios": "^0.9.1",
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^4.2.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "^4.0.0",
-    "redux": "^3.0.4"
+    "redux": "^3.0.4",
+    "redux-promise": "^0.5.1"
   },
   "bugs": {
     "url": "https://github.com/ksaldana1/React-RandomQuotes/issues"
